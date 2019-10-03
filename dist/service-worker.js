@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.dfe18ab0b69d8babc5778f3554485645.js"
+  "/precache-manifest.f5110e1cc341c27fce210e8975de1aa2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "sjpintor"});
