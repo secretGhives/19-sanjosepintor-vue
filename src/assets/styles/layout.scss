@@ -1,0 +1,65 @@
+@import '@/assets/styles/vars.scss';
+
+/************
+ * Defaults
+ ************/
+button, select, html, textarea, input {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+select, button, textarea, input {
+  font-size: 100%;
+}
+
+.md-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  min-height: 36px;
+  min-width: 88px;
+  line-height: 36px;
+  vertical-align: middle;
+  border-radius: 2px;
+  user-select: none;
+  outline: none;
+  border: 0;
+  padding: 0 6px;
+  margin: 6px 8px;
+  background: transparent;
+  color: currentColor;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-family: inherit;
+  text-decoration: none;
+  overflow: hidden;
+  transition: box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), background-color 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-sizing: border-box;
+
+  &.md-primary {
+    color: $white;
+    background-color: $blue_500;
+  }
+
+  &.md-outline {
+    color: $white;
+    border: 2px solid;
+  }
+  
+  &.md-accent {
+    color: $silver;
+    background-color: $pink_500;
+  }
+
+  &.md-raised:not([disabled]) {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  }
+
+  &.input-submit {
+    padding: 1em 3em;
+    font-weight: bold;
+  }
+}
